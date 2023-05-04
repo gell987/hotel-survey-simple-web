@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h1>Hotel Survey Form</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <i class="fa fa-envelope fa-5x"></i>
+          <h2>How are we doing?</h2>
+          <p>We really value your opinion</p>
+        </div>
+
+        <div class="col-md-8">
+          <div class="row form-group">
+            <div class="col-3">
+              <label>*Name:</label>
+            </div>
+
+            <div class="input-group col-9">
+              <span class="input-group-text"><i class="fa fa-user"></i></span>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Please Enter Your Name"
+                name="name"
+              />
+            </div>
+          </div>
+          <div class="row form-group">
+            <div class="col-3">
+              <label>*Email:</label>
+            </div>
+
+            <div class="input-group col-9">
+              <span class="input-group-text"><i class="fa fa-envelope"></i></span>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Please Enter Your Email"
+                name="name"
+              />
+            </div>
+          </div>
+          <div class="row form-group">
+            <div class="col-3">
+              <label>*Room Number:</label>
+            </div>
+
+            <div class="input-group col-9">
+              <span class="input-group-text"><i class="fa fa-door-open"></i></span>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Please Enter Your Room Number"
+                name="name"
+              />
+            </div>
+          </div>
+          <div class="row form-group">
+            <div class="col-3">
+              <label>*Business:</label>
+            </div>
+
+            <div class="input-group col-9">
+              <span class="input-group-text"><i class="fa fa-building"></i></span>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Please Enter Your Business"
+                name="name"
+              />
+            </div>
+          </div>
+          <div class="form-group row"> 
+                
+            <div class="col-sm-3">
+               <label class="control-label" for="visit-purpose">Rate Your Stay:</label>
+            </div>
+
+            <div class="col-sm-9">
+              
+              <div class="form-check form-check-inline">
+                 <input class="form-check-input" type="radio" name="star-rating" value="five-star">
+                 <label class="form-check-label" for="five-star">Excellent</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="star-rating" value="five-star">
+                <label class="form-check-label" for="five-star">Very good</label>
+             </div>
+             <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="star-rating" value="five-star">
+                <label class="form-check-label" for="five-star">Average</label>
+             </div>
+             <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="star-rating" value="five-star">
+                <label class="form-check-label" for="five-star">Poor</label>
+             </div>
+             <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="star-rating" value="five-star">
+                <label class="form-check-label" for="five-star">Terrible</label>
+             </div>
+        </div>
+          
+        </div>
+        <hr/>
+        <div class="form-group row"> 
+                
+                <div class="col-sm-3">
+                  <label class="control-label" for="visit-purpose">Things You Liked:</label>
+                </div>
+
+                <div class="col-sm-9">
+                   
+                   <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="checkbox" id="service" value="service">
+                      <label class="form-check-label" for="service">Service</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="service" value="service">
+                        <label class="form-check-label" for="service">Value</label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="service" value="service">
+                        <label class="form-check-label" for="service">Sleep Quality</label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="service" value="service">
+                        <label class="form-check-label" for="service">Cleanliness</label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="service" value="service">
+                        <label class="form-check-label" for="service">Facilities</label>
+                      </div>
+                </div>
+            </div>
+
+
+            <div class="form-group row"> 
+                <div class="col-sm-3">
+                  <label class="control-label" for="comment">Comments:</label>
+                </div>
+                 
+                <div class="input-group col-sm-9">
+                    <div class="input-group-prepend">
+                       <span class="input-group-text" id="basic-addon-mail"><i class="fa fa-comment"></i></span>
+                    </div>
+                 <textarea class="form-control" rows="5" id="comment"></textarea>
+                </div>  
+             </div>
+            <button class="btn btn-default">Submit Form</button>
+
+      </div>
+    </div>
+  </body>
+</html>
